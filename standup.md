@@ -15,3 +15,8 @@
 |---|---|---|
 |Kevin|Needs to go to his grandma's funeral but needs to fix a bug in the code|Code works, bug is still there|
 |Tammy|Want to finish his code|He's 1000 lines away from completing|
+
+## Team scores
+|Git Good|Vibe Coders|
+|---|---|
+|12|132|
