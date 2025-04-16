@@ -26,6 +26,9 @@
 |---|---|
 |Need to finish their card and puzzle game by the end of the week|Fix the bug in their code and delivery it to their client by the end of the week|
 
+# TASK FOR THE WEEK
+> This week's task are worth 10 points each
+
 ## Git Good Tasks for the week
 - [ ] Get the puzzle game done
 - [ ] Get three card game done
