@@ -20,3 +20,19 @@
 |Git Good|Vibe Coders|
 |---|---|
 |12|132|
+
+# Goals
+|Git Good|Vibe Coders|
+|---|---|
+|Need to finish their card and puzzle game by the end of the week|Fix the bug in their code and delivery it to their client by the end of the week|
+
+## Git Good Tasks for the week
+- [ ] Get the puzzle game done
+- [ ] Get three card game done
+- [x] Meet up for the team vs team meeting
+
+## Vibe Coder Tasks for the week
+- [ ] Get the code working
+- [ ] Finish writing the 1000 lines of code
+- [x] Meet up for the team vs team meeting
+
