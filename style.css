@@ -5,6 +5,32 @@
     --blue-color: #3dff67;
 }
 
+@font-face {
+    font-family: "Kaushan";
+    src: url(KaushanScript-Regularwoff.woff2);
+}
+
+@font-face {
+    font-family: "Bungee";
+    src: url(BungeeSpice-Regular.woff2);
+}
+
+@media screen and (max-width: 680px) {
+    body {
+        font-size: 10px;
+    }
+
+    .flexContainer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 681px) {
+    body {
+        font-size: 16px;
+    }
+}
+
 /* styling the body */
 body {
     color: rgb(255, 255, 255);
@@ -54,7 +80,7 @@ h1 {
     text-decoration: underline;
     text-decoration-color: rgb(15, 212, 147);
     position: static;
-
+    font-family: "Bungee";
 }
 
 
@@ -70,6 +96,8 @@ h2 {
     text-decoration: overline;
 
     text-decoration-color: chartreuse;
+
+    font-family: "Kaushan";
 
 }
 
@@ -110,4 +138,47 @@ h1:active {
     border-radius: 100px;
     border-style: dotted;
     border-color: #c54343;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    order: 4;
+    flex-shrink: 200;
+    column-gap: 30px;
+}
+
+.flexContainer>div {
+    width: 30%;
+    min-width: 100px;
+    min-height: 200px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: [l1] 100px [l2] 100px [l3] 100px [l4];
+    grid-template-rows: [r1] 50px [r2] 50px [r3];
+}
+
+.item1 {
+    grid-column-start: l1;
+    grid-column-end: l2;
+    grid-row-start: r1;
+    grid-row-end: r2;
+}
+
+.item3 {
+    grid-column-start: l2;
+    grid-column-end: l3;
+    grid-row-start: r2;
+    grid-row-end: r3;
+}
+
+.item2 {
+    grid-column-start: l3;
+    grid-column-end: l4;
+    grid-row-start: r1;
+    grid-row-end: r2;
 }
