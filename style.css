@@ -232,11 +232,17 @@ div.inlineBlock {
 
 div:has(img) {
     border: 5px solid pink;
+    color: hsl(100, 50%, 50%);
 }
 
 div {
-    h3 {
+    /* h3 {
         border: 2px dashed green;
         border-radius: 100%;
-    }
+    } */
+    /* nesting giving me errors */
+}
+
+button {
+    background-color: color-mix(in srgb, green 42%, white 58%);
 }
