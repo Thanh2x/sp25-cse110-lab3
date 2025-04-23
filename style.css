@@ -183,3 +183,16 @@ h1:active {
     grid-row-start: r1;
     grid-row-end: r2;
 }
+
+#todayAgenda {
+    font-style: italic;
+}
+
+* {
+    min-width: 10px;
+    min-height: 10px;
+}
+
+p {
+    font-style: oblique;
+}
