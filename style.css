@@ -244,5 +244,6 @@ div {
 }
 
 button {
-    background-color: color-mix(in srgb, green 42%, white 58%);
+    /* background-color: color-mix(in srgb, green 42%, white 58%); */
+    /* Color mix is also not working */
 }
