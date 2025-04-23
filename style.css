@@ -196,3 +196,15 @@ h1:active {
 p {
     font-style: oblique;
 }
+
+input[type="radio"] {
+    margin-top: 10px;
+    color: cadetblue;
+}
+
+h1,
+h2,
+h3 {
+    min-height: 10px;
+    min-width: 10px;
+}
