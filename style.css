@@ -208,3 +208,17 @@ h3 {
     min-height: 10px;
     min-width: 10px;
 }
+
+nav a {
+    color: rgb(41, 146, 38);
+    font-weight: bold;
+}
+
+nav>ol {
+    background-color: whitesmoke;
+}
+
+h3~p {
+    min-height: 10px;
+    min-height: 10px
+}
