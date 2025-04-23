@@ -220,5 +220,23 @@ nav>ol {
 
 h3~p {
     min-height: 10px;
-    min-height: 10px
+}
+
+h3+p {
+    min-width: 10px;
+}
+
+div.inlineBlock {
+    border: 2px dashed orange;
+}
+
+div:has(img) {
+    border: 5px solid pink;
+}
+
+div {
+    h3 {
+        border: 2px dashed green;
+        border-radius: 100%;
+    }
 }
